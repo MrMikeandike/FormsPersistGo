@@ -2,8 +2,8 @@
 ---
 
 ## Here are some handy templates for vscode if you are interested in making your own router like this
+```
 {
-
 	"router main app": {
 		"prefix": "router-app",
 		"body": [
@@ -49,14 +49,15 @@
 		"body": [
 			"// NotFound sends not found error to w",
 			"func NotFound(w http.ResponseWriter) {",
-			"	http.Error(w, \"404 not found!!!\", http.StatusNotFound)",
+			"    http.Error(w, \"404 not found!!!\", http.StatusNotFound)",
 			"}",
 			"",
 			"// MethodNotAllowed sends MethodNotAllowed error to w",
 			"func MethodNotAllowed(w http.ResponseWriter) {",
-			"	http.Error(w, \"Method not allowed\", http.StatusMethodNotAllowed)",
+			"    http.Error(w, \"Method not allowed\", http.StatusMethodNotAllowed)",
 			"}",
 		],
 		"description": "NotFound and MethodNotAllowed func definitions"
 	}
 }
+```
